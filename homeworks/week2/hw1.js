@@ -6,11 +6,14 @@ function printStars(n) {
   console.log(answer)
 }
 
-function foo(n) {
-  for(let i = 0; i < n; i++) {
-    console.log('*')
-  }
-}
+printStars(1)
+printStars(3)
+printStars(6)
 
-// printStars(5)
-foo(3)
+// function foo(n) {
+//   for(let i = 0; i < n; i++) {
+//     console.log('*')
+//   }
+// }
+
+// foo(3)
